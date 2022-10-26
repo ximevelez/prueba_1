@@ -8,9 +8,9 @@ $porcentaje3 = $nota3* 0.4;
 $final = $porcentaje1+ $porcentaje2+ $porcentaje3;
 
 if($final>=4.0){
-    echo "aprobado";
+    echo "aprobado ".$final;
 }else{
-    echo " no aprobado";
+    echo " no aprobado ".$final;
 }
 
 

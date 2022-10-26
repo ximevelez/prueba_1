@@ -11,5 +11,11 @@ $total_tar = $tarjetas*$tarjeta;
 
 $total = $total_vol+$total_pos+$total_tar; 
 
-echo "total "  ."volantes " .$volantes."+ "."posters " .$posters. "+ "."tarjetas " .$tarjetas. "= ".$total; 
+echo "volantes " .$total_vol;
+echo "<br>";
+echo "posters " .$total_pos;
+echo "<br>";
+echo "tarjetas " .$total_tar;
+echo "<br>";
+echo "total ".$total; 
 ?>

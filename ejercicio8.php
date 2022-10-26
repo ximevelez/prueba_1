@@ -10,7 +10,11 @@
     <h1>ejercicio 8</h1>
     <form action="ejercicio_8.php" method="get">
     <label for="">edad</label><input type="text" name="edad">
-    <label for="">sexo</label><input type="text" name="sexo">
+    <label for="">sexo</label>
+    <select name="sexo">
+        <option name="m" value="m">m</option>
+        <option name="f" value="f">f</option>
+    </select>
     <input type="submit" name="enviar">
     </form>
 </body>
